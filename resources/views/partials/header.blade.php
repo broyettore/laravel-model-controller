@@ -1,10 +1,12 @@
 <header>
     <div class="container py-2 d-flex align-items-center justify-content-between">
         <div class="title">
-            Laravel Mvc
+           <h1 class="fs-4">
+            Laravel MVC
+           </h1>
         </div>
         <nav>
-            <ul>
+            <ul class="d-flex">
                 <li>
                     <a href="#">
                         Documentation
