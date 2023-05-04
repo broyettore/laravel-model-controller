@@ -1,6 +1,32 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./_partials/colors.scss";
 
+/*********** RESET *************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: yellow;
+    background-color: $primary-color;
+    color: $secondary-color;
 }
+
+/*********** COMMON *************/
+
+a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+a, button, li {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, ul ,li {
+    margin: 0;
+    padding: 0;
+}
+
+/*********** Header*************/
